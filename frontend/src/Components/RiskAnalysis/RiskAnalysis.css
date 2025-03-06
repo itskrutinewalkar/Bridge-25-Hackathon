@@ -1,0 +1,34 @@
+.risk-analysis-container {
+    width: 90%;
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .risk-analysis-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .graph-container {
+    width: 100%;
+    height: 400px;
+  }
+  
+  @media (max-width: 768px) {
+    .risk-analysis-container {
+      width: 95%;
+      padding: 15px;
+    }
+  
+    .risk-analysis-title {
+      font-size: 20px;
+    }
+  }
+  
