@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./Components/Navbar/Navbar";
 import Form from "./Components/Form/Form";
 import RiskAnalysis from "./Components/RiskAnalysis/RiskAnalysis";
-
+import RevenueTrendChart from "./Components/RevenueTrendChart/RevenueTrendChart";
 import Home from "./Components/Home/Home";
 
 
@@ -16,6 +16,7 @@ function App() {
         <Route path="/calculation" element={<Form />} />
         <Route path="/about" element={<h1>About</h1>} />
         <Route path="/risk-analysis" element={<RiskAnalysis />} />
+        <Route path="/predict" element={<RevenueTrendChart />} />
       </Routes>
     </Router>
   );

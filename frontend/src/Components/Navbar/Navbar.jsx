@@ -7,9 +7,9 @@ const Navbar = () => {
       <div className="logo">Credit Score Predictor</div>
       <ul className="nav-links">
         <li><Link to="/">Home</Link></li>
-        <li><Link to="/calculation">Credit Score Calculator</Link></li>
+        <li><Link to="/predict">Credit Score Calculator</Link></li>
+        <li><Link to="/calculation">Risk Analysis</Link></li>
         <li><Link to="/about">About</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
       </ul>
     </nav>
   );
